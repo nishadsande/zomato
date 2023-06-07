@@ -1,0 +1,406 @@
+*{
+    padding: 0ex;
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+/*Header Css starts*/
+body{
+    margin: auto;
+    background-color: #e9a48c;
+}
+
+/*Header Css ends*/
+/*Search Css Starts*/
+a{
+    text-decoration: none !important;
+}
+
+.btn{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.background-img{
+    height: 400px;
+    background-image: url('images/food-wallpaper.png');
+    
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    
+}
+#logo{
+    height: 100px;
+    width: 0px;
+    font-size: 100;
+    
+    color: white;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 6%; 
+   
+    }
+@keyframes coll{
+    0% {margin-left: 50%; height:100px; width:100px}
+    25% {margin-left:40%; height:0px; width:0px}
+    50% {margin-left: 50%; height:100px; width:100px}
+    75%{margin-left: 60%; height:0px; width:0px}
+    100% {margin-left: 50%; height:100px; width:100px}
+    
+}
+
+
+
+@keyframes collapse{
+    0% {margin-left: 35%; font-size: 38px; }
+    25%{margin-left:25%;font-size: 0px; }
+    50%{margin-left: 35%; font-size: 38px; }
+    75%{margin-left: 45%; font-size: 0px; }
+    100%{margin-left: 35%; font-size: 38px; }
+}
+.logoContainer{
+    margin-left: 32%;
+    color:#fff;
+    display:block;
+}
+.logoContainer > p{
+    text-align: center;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 32%;
+}
+.city{
+    height: 40px;
+    width: 30%;
+    margin-left:10%;
+    float: left;
+    margin-top: 34%
+}
+
+.dropdown{
+    width: 60%;
+    position: absolute;
+    margin-left: 22%;
+}
+.row{
+    display: inline-block;
+}
+.restauSelect{
+    width:50%;
+    height: 40px;
+    margin-top: 34%
+}
+
+.box{
+    margin-left: 70%;
+    width: 300px;
+    height: 50px;
+    margin-top: %
+  }
+  
+.location{
+    margin-left: 18%;
+    width: 30%;
+
+}
+
+#quicksearch{
+    height:800px;
+    width: 100%;  
+}
+#quickHeading{
+    font-size: 40px; 
+    margin-left: 8%;
+    color: #dd5858;
+    display: block;
+}
+
+#quickHeading:hover{
+    color: blueviolet;
+    width: max-content;
+}
+#quickHeading > span{
+    margin-right: 43%;
+    text-align: none;
+    
+}
+#quickSubHeading{
+    font-size: 30px;
+    margin-left: 8%;
+    color:grey;
+}
+.mainTile{
+    margin-left: 10%;
+
+}
+.card{
+    display: inline-block;
+    margin-left: 3%;
+    box-shadow:10px 20px 10px grey ;
+    margin-top: 3%;
+    
+    background-color: #f1d9d9;
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.card-body{
+    background-color: #e5d1d1;
+}
+.card > img{
+    width: 100%;
+}
+.card-body > a{
+    text-decoration: none;
+    font-size:30px;
+    text-align: center;
+    color:#8b3437;
+    margin-left: 25%;
+}
+.card-text{
+    font-size: 20px;
+}
+.tileComponent1{
+    width: 100%;
+    height: 180px;
+}
+
+.tileHeading{
+    font-size:30px;
+    text-align: center;
+    margin-top: -1%;
+}
+.tileHeading > a{
+    text-decoration: none;
+    color: brown;
+}
+.tileSubHeading{
+    font-size: 20px;
+    text-align: center;
+}
+.burger{
+    height:160px;
+    width: 240px;
+
+}
+
+@media screen and (max-width:1300px){
+    .restauSelect{
+        width:50%;
+    }
+    select{
+        margin-top:38% !important;
+    }
+    
+    .heading{
+        margin-top: 16%;
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .restauSelect{
+        width:50%;
+    }
+    #logo{
+        height: 100px;
+        width: 0px;
+        background-color: white;
+        border-radius: 50%;
+        margin: auto;
+        position: absolute;
+        margin-left: 45%;
+        margin-top: 6%; 
+      
+    }
+    @keyframes coll{
+        0% {margin-left: 50%; height:90px; width:90px}
+        25% {margin-left:40%; height:0px; width:0px}
+        50% {margin-left: 50%; height:90px; width:90px}
+        75%{margin-left: 60%; height:0px; width:0px}
+        100% {margin-left: 50%; height:90px; width:90px}
+        
+    }
+    
+    @keyframes collapse{
+        0% {margin-left: 35%; font-size: 35px; }
+        25%{margin-left:25%;font-size: 0px; }
+        50%{margin-left: 35%; font-size: 35px; }
+        75%{margin-left: 45%; font-size: 0px; }
+        100%{margin-left: 35%; font-size: 35px; }
+    }
+    select{
+        margin-top:40% !important;
+    }
+    .card{
+        margin-left: 2%;
+}
+
+@media screen and (max-width:1100px){
+    select{
+        margin-top: 42% !important;
+    }
+    .restauSelect{
+        width:55%;
+    }
+   
+    @keyframes coll{
+        0% {margin-left: 50%; height:90px; width:90px}
+        25% {margin-left:40%; height:0px; width:0px}
+        50% {margin-left: 50%; height:90px; width:90px}
+        75%{margin-left: 60%; height:0px; width:0px}
+        100% {margin-left: 50%; height:90px; width:90px}
+        
+    }
+    
+    @keyframes collapse{
+        0% {margin-left: 35%; font-size: 35px; }
+        25%{margin-left:25%;font-size: 0px; }
+        50%{margin-left: 35%; font-size: 35px; }
+        75%{margin-left: 45%; font-size: 0px; }
+        100%{margin-left: 35%; font-size: 35px; }
+    }
+    
+    .card{
+        margin-left:2%;
+    }
+    .mainTile{
+        margin-left:5%
+    }
+}
+
+@media screen and (max-width:1000px){
+    .mainTile{
+        margin-left:13%
+    }
+    select{
+        margin-top:44% !important;
+    }
+    .heading{
+        margin-left: 25%;
+    }
+    .card{
+        margin-left:4%;
+        margin-top: 5%;
+    }
+    #quicksearch{
+        height:1200px;
+}
+
+@media screen and (max-width:900px){
+    select{
+        margin-top: 50% !important;
+    }
+    .dropdown{
+        margin-left: 16% !important;
+    }
+    .heading{
+        font-size: 30px;
+        margin-top: 20%;
+        margin-left: 20%;
+    }
+    #logo{ 
+        
+        margin-top:8%;  
+    }
+    @keyframes coll{
+        0% {margin-left: 50%; height:80px; width:80px}
+        25% {margin-left:40%; height:0px; width:0px}
+        50% {margin-left: 50%; height:80px; width:80px}
+        75%{margin-left: 60%; height:0px; width:0px}
+        100% {margin-left: 50%; height:80px; width:80px}
+        
+    }
+    
+@keyframes collapse{
+        0% {margin-left: 30%; font-size: 30px; }
+        25%{margin-left:20%;font-size: 0px; }
+        50%{margin-left: 30%; font-size: 30px; }
+        75%{margin-left: 40%; font-size: 0px; }
+        100%{margin-left: 30%; font-size: 30px; }
+    }
+}
+
+@media screen and (max-width:800px){
+    .mainTile{
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width:700px){
+    #quicksearch{
+        height:2100px;
+    }
+    .city{
+        width: 80%;
+        margin-top: 55% !important;
+    }
+    .restauSelect{
+        margin-top:5% !important;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .heading{
+        margin-top: 24%;
+        margin-left:10%;
+        font-size: 30px;
+    }
+    select{
+        width: 100%;
+    }
+    .location{
+        margin-left: 10%;
+        width: 100%;
+    }
+    
+    .mainTile{
+        margin-left: 1%;
+    }
+    .card{
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .heading{
+        margin-top: 30%;
+        margin-left:13%;
+        font-size: 25px;
+    }
+    .restauSelect{
+        width:80%;
+        margin-top: 5%;
+    }
+    .city{
+        margin-top: 65% !important;
+    }
+    .location{
+        width: 100%;
+    }
+    .mainTile{
+        margin-left: 1%;
+    }
+    .card{
+        margin-top: 6%;
+    }
+    #quickHeading{
+        font-size: 30px; 
+    }
+    #quickSubHeading{
+        font-size: 20px;
+    }
+    .mainTile{
+        margin-left: 20%;
+    }
+}
